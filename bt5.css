@@ -1,0 +1,21 @@
+.bong{
+    position: relative;
+    transition-property:unset
+    transition: width 2s;
+    font-size: 25px;
+    width: 500px;
+    height: 30px;
+    background-color: azure;
+    transition-duration: 1s;
+    transition-property: translate();
+    
+}
+#ease{
+   transition-timing-function: ease; 
+}
+.bong:hover{
+    cursor: pointer;
+    color: red;
+    background-color: aquamarine;
+    transform: translate(50px,0);
+}   

@@ -1,0 +1,35 @@
+
+.card-container{
+    width: 300px;
+    padding: 20px;
+    border: 1px solid black;
+    height: 450px;
+}
+.card-container .card-bg{
+    position: relative;
+    width: 300px;
+    background-color: aquamarine;
+    left: -1px;
+    bottom: 5px;
+    height: 300px;
+    box-shadow: 10px 0px 10px lightblue inset;
+}
+.card-container .card-bg img{
+    position: absolute;
+    width: 85%;
+    top: 45px;
+    left: 23px;
+}
+.outset{
+   margin-top: 228px;
+   border: 0px solid white;
+   background-color: white;
+    border-style: outset;
+    box-shadow: 10px 0px 10px lightblue inset;
+}
+.outset h3,p{
+    padding-right: 190px;
+   
+}
+
+
